@@ -13,11 +13,22 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "plugins": ["import"],
   "rules": {
     "prettier/prettier": [
       "error",
       {
         "endOfLine": "auto"
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "js": "always",
+        "jsx": "always",
+        "ts": "always",
+        "tsx": "always"
       }
     ]
   }
