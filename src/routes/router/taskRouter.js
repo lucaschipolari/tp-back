@@ -1,5 +1,6 @@
 import express from 'express';
 import Task from '../../controllers/task/index.js';
+import errorHandler from '../../middlewares/errorHandler.js';
 
 const taskRouter = express.Router();
 
