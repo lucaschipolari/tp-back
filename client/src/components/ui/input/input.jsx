@@ -9,6 +9,7 @@ const Input = (props) => {
     className = '',
     options,
     register,
+    label,
   } = props;
   return (
     <fieldset className={`form-floating ${className}`}>
@@ -34,8 +35,9 @@ Input.propTypes = {
     message: PropTypes.string,
   }),
   className: PropTypes.string,
-  options: PropTypes.arrayOf(PropTypes.object),
+  options: PropTypes.object,
   register: PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
 };
 
 export default Input;

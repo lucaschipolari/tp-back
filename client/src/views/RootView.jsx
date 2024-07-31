@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-const RouterView = () => {
+const RootView = () => {
   return (
     <>
       {/* <NavbarMain /> */}
@@ -11,4 +11,4 @@ const RouterView = () => {
   );
 };
 
-export default RouterView;
+export default RootView;

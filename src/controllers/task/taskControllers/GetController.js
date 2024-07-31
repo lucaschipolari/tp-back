@@ -11,6 +11,7 @@ class GetController {
         return {
           id: task._id,
           title: task.title,
+          content: task.content,
           description: task.description,
           status: task.status,
           createdAt: task.createdAt,
